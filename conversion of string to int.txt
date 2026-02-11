@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String str = "1234";              
+        int num = Integer.valueOf(str);   
+
+        System.out.println("String Value: " + str);
+        System.out.println("Integer Value: " + num);
+        System.out.println("The conversion of Value: " + (num + str));
+
+        sc.close();
+    }
+}
